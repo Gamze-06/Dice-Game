@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zar Oyunu</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Dice Game 🎲</h1>
+    <input type="text" id="player1Name" placeholder="Player 1 Adını Girin &#x1F3B2"> 
+    <div class="dice-container">
+      <div>
+        <h2 id="player1Label">Player 1</h2> <!-- Player 1 adı -->
+        <img src="images/dice4.png" alt="Dice 1" class="dice" id="dice1"> <!-- Zar 1 resmi -->
+      </div>
+      <div>
+        <h2>Player 2</h2> <!-- Player 2 adı -->
+        <img src="images/dice4.png" alt="Dice 2" class="dice" id="dice2"> <!-- Zar 2 resmi -->
+      </div>
+    </div>
+    <button id="rollButton">Zar At</button> <!-- Zar atma butonu -->
+    <h2 id="result"></h2> <!-- Sonuç mesajı -->
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>www <span class="dice-icon">🎲</span> Dice Game <span class="dice-icon">🎲</span> com</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
