@@ -16,4 +16,6 @@ Basit bir web uygulaması: İki oyuncu zar atar, kazanan, kaybeden veya berabere
 - `style.css` → Tasarım
 - `script.js` → İşlevsellik
 - `images/` → Zar görselleri (dice1.png - dice6.png)
+  
 
+![Dice-Game](https://github.com/user-attachments/assets/3d8e09f4-26c7-4e59-8d08-58dae05c9a45)
